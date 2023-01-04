@@ -13,6 +13,7 @@
 		61851DE92964DD0300599B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61851DE72964DD0300599B68 /* Main.storyboard */; };
 		61851DEB2964DD0700599B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61851DEA2964DD0700599B68 /* Assets.xcassets */; };
 		61851DEE2964DD0700599B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61851DEC2964DD0700599B68 /* LaunchScreen.storyboard */; };
+		61851E16296595DF00599B68 /* mars_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 61851E15296595DF00599B68 /* mars_texture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		61851DE82964DD0300599B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61851DEA2964DD0700599B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61851DED2964DD0700599B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61851E15296595DF00599B68 /* mars_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mars_texture.png; path = ../../../../../mars_texture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				61851DE12964DD0300599B68 /* AppDelegate.swift */,
+				61851E15296595DF00599B68 /* mars_texture.png */,
 				61851DE32964DD0300599B68 /* art.scnassets */,
 				61851DE52964DD0300599B68 /* ViewController.swift */,
 				61851DE72964DD0300599B68 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				61851DE42964DD0300599B68 /* art.scnassets in Resources */,
 				61851DEE2964DD0700599B68 /* LaunchScreen.storyboard in Resources */,
+				61851E16296595DF00599B68 /* mars_texture.png in Resources */,
 				61851DEB2964DD0700599B68 /* Assets.xcassets in Resources */,
 				61851DE92964DD0300599B68 /* Main.storyboard in Resources */,
 			);
@@ -214,7 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -305,7 +309,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -336,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

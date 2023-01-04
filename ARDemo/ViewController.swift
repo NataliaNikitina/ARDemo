@@ -22,20 +22,18 @@ class ViewController: UIViewController {
         
         let scene = SCNScene()
         
-        let boxGeometry = SCNBox(width: 0.2, height: 0.2, length: 0.2, chamferRadius: 0)
+        let sphereGeometry = SCNSphere(radius: 0.2)
+        let sphereMaterial = SCNMaterial()
         
-        let material = SCNMaterial()
-        material.diffuse.contents = UIColor.brown
+        sphereMaterial.diffuse.contents = UIImage(named: "mars_texture.png")
+        let sphereNode = SCNNode(geometry: sphereGeometry)
+        sphereNode.geometry?.materials = [sphereMaterial]
+        sphereNode.position = SCNVector3(0, 0, -1)
         
-        let boxNode = SCNNode(geometry: boxGeometry)
-        boxNode.geometry?.materials = [material]
-        boxNode.position = SCNVector3(0, 0, -1.0)
-        
-        scene.rootNode.addChildNode(boxNode)
+        scene.rootNode.addChildNode(sphereNode)
         
         sceneView.scene = scene
-        
-        
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
